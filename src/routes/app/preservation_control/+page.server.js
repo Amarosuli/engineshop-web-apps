@@ -26,7 +26,7 @@ export const load = async ({ locals }) => {
          engine.family = family.filter((family) => family.id == engine.family_id)[0].name;
          engine.customer = customer.filter((customer) => customer.id == engine.customer_id)[0].name;
       });
-      console.log(container)
+      // console.log(container)
       return container;
    };
 
